@@ -15,9 +15,11 @@
 | `> show mac-address-table`                      | Visualizza la MAC table                                   | `> sh mac-`               |
 | `> show version`                                | Mostra varie informazioni                                 | `> sh ve`                 | 
 | `# show spanning-tree`                          | Visualizza informazioni sullo spanning-tree               | `# sh sp`                 |
-| `& speed 1000`                                  | Imposta una velocità di una porta (es. 10, 100, auto)     | `& spe 1000`              |
+| `& speed 100`                                   | Imposta una velocità di una porta (es. 10, 100, auto)     | `& spe 100`               |
 | `& shutdown`                                    | Spegne la porta che si sta configurando                   |                           |
 | `& no shutdown`                                 | Nega lo stato di spenta                                   |                           |
 | `& spanning-tree vlan 1 priority 4096`          | Imposta la priorita dello switch                          | `& sp v 1 p 4096`         |
 | `> ping 192.168.1.2`                            | Esegue il ping verso l'indirizzo specificato              |                           |
-|                                                 |                                                           |                           |
+| `# show interfaces status`                      |                                                           |                           |
+| `# copy running-config startup-config`          |                                                           |                           |
+| `> show interfaces FastEthernet 0/1`            |                                                           |                           |
